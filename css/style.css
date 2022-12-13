@@ -1,0 +1,217 @@
+/* ............LOGIN CSS........... */
+.login_body{
+    background-color: #ebeef3;
+}
+.login_card {
+    border: none;
+    border-radius: 0;
+    width: 420px !important;
+    margin: 0 auto
+}
+
+.signup {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 10px 50px
+}
+
+a{
+    text-decoration:none !important;
+}
+
+h5 {
+    color:#4469b0;
+    margin-bottom: 3px;
+    font-weight: bold
+}
+
+small {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.login_input {
+    width: 100%;
+    display: block;
+    margin-bottom: 7px
+}
+
+.login-form-control {
+    border: 1px solid #dc354575;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, .075);
+    letter-spacing: 1px
+}
+
+.login-form-control:focus {
+    border: 0.5px solid #dc354575;
+    border-radius: 30px;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, .075);
+    color: #000;
+    letter-spacing: 1px
+}
+
+.login_btn {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    background: -webkit-linear-gradient(to right, #1e3c72, #2a5298); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text-left {
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 400
+}
+
+.text-right {
+    color: #4469b0;
+    font-weight: bold
+}
+
+span.text-center {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.fab {
+    padding: 15px;
+    font-size: 23px
+}
+
+.fa-facebook {
+    color: #0303d9bf
+}
+
+.fa-twitter {
+    color: #0078fade
+}
+
+.fa-linkedin {
+    color: #18b1c0
+}
+
+/* ...........HOME PAGE CSS........... */
+
+body {
+    background-color: #eeeeee;
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.77rem;
+    }
+}
+
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+    content: none;
+    display: none;
+}
+
+.general_clr{
+    background-color:#4469b0;
+}
+.general_clr1{
+    color: #4469b0;
+}
+ul.nav_middle{
+    display: -webkit-inline-box;
+    font-weight: 100;
+
+}
+.nav_mid_li{
+    padding-left: 20px;
+}
+
+.people_card {
+    background: #fff;
+    transition: .5s;
+    border: 0;
+    margin-bottom: 30px;
+    border-radius: .55rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+.chat-app .people-list {
+    width: 330px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    z-index: 7
+}
+
+.chat-app .chat {
+    margin-left: 280px;
+    border-left: 1px solid #eaeaea
+}
+
+.people-list {
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.people-list .chat-list li {
+    padding: 10px 15px;
+    list-style: none;
+    border-radius: 3px
+}
+
+.people-list .chat-list li:hover {
+    background: #efefef;
+    cursor: pointer
+}
+.people-list .chat-list li.active {
+    background: #efefef
+}
+
+
+.people-list .chat-list li .name {
+    font-size: 15px
+}
+
+.people-list .chat-list img {
+    width: 45px;
+    border-radius: 50%
+}
+
+.people-list img {
+    float: left;
+    border-radius: 50%
+}
+
+.people-list .about {
+    float: left;
+    padding-left: 8px
+}
+
+.people-list .status {
+    color: #999;
+    font-size: 13px
+}
+
+.cmnt{
+    border: 1px groove;
+    width: 100%;
+}
+.color{
+    color: white;
+}
+

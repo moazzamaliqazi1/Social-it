@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <link rel="icon" href="./public/images/new.png" type="images/x-icon" />
+    <title>Socialit</title>
+  </head>
+  <body class="login_body" onload="onLoadLogin()">
+    <div class="general_clr sticky-top">
+      <nav class="navbar navbar-dark">
+        <a href="#" class="navbar-brand font-weight-bold"
+          ><i class="fa-brands fa-stumbleupon"></i>Socialit</a
+        >
+      </nav>
+    </div>
+    For Login<br />
+    username: kminchelle<br />
+    password: 0lelplR
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 mx-auto py-4 px-0">
+          <div class="login_card card p-0">
+            <div class="card-title text-center">
+              <h5 class="mt-5">Socialit Login</h5>
+              <small class="para">Login to your account below.</small>
+            </div>
+            <form
+              class="signup"
+              onsubmit="validateCredentials(); return false;"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="login_input login-form-control form-control"
+                  id="username"
+                  placeholder="Username"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="login_input login-form-control form-control"
+                  id="password"
+                  placeholder="password"
+                  required
+                />
+              </div>
+              <button type="submit" class="login_btn btn btn-primary">
+                Login
+              </button>
+              <div class="row">
+                <div class="col-6 col-sm-6">
+                  <a href="#"
+                    ><p class="text-left pt-2 ml-1">Forgot password?</p></a
+                  >
+                </div>
+                <div class="col-6 col-sm-6">
+                  <a href="#">
+                    <p class="text-right pt-2 mr-1">Sign Up Now</p></a
+                  >
+                </div>
+              </div>
+              <span class="text-center">Or</span>
+              <span class="text-center pt-3">Login Using</span>
+              <div class="row">
+                <div class="d-flex mx-auto pt-1 pb-3">
+                  <a href="#"><i class="general_clr1 fab fa-google"></i></a>
+                  <a href="#"><i class="general_clr1 fab fa-twitter"></i></a>
+                  <a href="#"><i class="general_clr1 fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/be7d8414cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
