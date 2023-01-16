@@ -25,7 +25,7 @@ const validateCredentials = async () => {
       console.log("response", response);
       const { data } = response;
       localStorage.setItem(LOCAL_STORAGE_LOGIN_KEY, JSON.stringify(data));
-      window.location.reload();
+      // window.location.reload();
     }
   } catch (exception) {
     Swal.fire({

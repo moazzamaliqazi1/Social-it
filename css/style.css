@@ -214,4 +214,9 @@ ul.nav_middle{
 .color{
     color: white;
 }
+@media screen and (max-width: 450px) {
+    .responsive {
+      display: none !important;
+    }
+  }
 
